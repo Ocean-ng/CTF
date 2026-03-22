@@ -1,4 +1,4 @@
-# TamuCTF — Short Term Fuel Trim
+# Short Term Fuel Trim
 
 ## Nhận diện bài
 
