@@ -87,7 +87,7 @@ wavfile.write('audio_flag.wav', 22050, audio_norm)
 
 ## Kết quả
 
-có thể lên trang này để dịch đoạn âm thanh ra file txt: <img width="2554" height="1093" alt="image" src="https://github.com/user-attachments/assets/4dda9187-0be4-43a6-bb64-b1d626fb2cd0" />
+có thể lên trang này để dịch đoạn âm thanh audio_flag.wav ra file txt: <img width="2554" height="1093" alt="image" src="https://github.com/user-attachments/assets/4dda9187-0be4-43a6-bb64-b1d626fb2cd0" />
 
 <img width="1764" height="81" alt="image" src="https://github.com/user-attachments/assets/21aaae12-adf0-4ade-9181-1a85b227d043" />
 
