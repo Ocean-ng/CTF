@@ -14,6 +14,14 @@ Biến đổi Fourier thông thường chỉ cho biết một đoạn âm thanh 
 1. **"Băm"** đoạn âm thanh dài thành những khung thời gian rất ngắn (ví dụ mỗi khung dài 0.01 giây).
 2. **Áp dụng FFT** lên từng khung nhỏ đó.
 
+**Notes**: Tưởng tượng bạn đang nghe một hợp âm đàn piano - tai bạn nghe thấy một âm thanh duy nhất, nhưng thực ra nó là tổng hợp của nhiều nốt nhạc (Do + Mi + Sol) cộng lại.
+FFT làm đúng việc đó: tách cái hỗn hợp đó ra và nói cho bạn biết:
+
+- Có những tần số nào trong tín hiệu
+- Mỗi tần số có biên độ (độ to) bao nhiêu
+
+
+
 Kết quả không còn là một đường sóng 1D nữa, mà là một **ma trận 2 chiều (2D Matrix)**:
 
 | Chiều | Ý nghĩa |
@@ -29,7 +37,7 @@ Kết quả không còn là một đường sóng 1D nữa, mà là một **ma t
 - Phần **biên độ** `abs(z)` → âm thanh **to hay nhỏ** ở tần số đó, tại thời điểm đó
 - Phần **pha** `angle(z)` → vị trí của sóng trong chu kỳ
 
-Khi vẽ spectrogram, người ta lấy `abs(Zxx)` để biểu diễn độ sáng tối tại mỗi điểm — phần pha không cần thiết để đọc flag bằng mắt.
+Khi vẽ spectrogram, người ta lấy `abs(Zxx)` để biểu diễn độ sáng tối tại mỗi điểm 
 
 ---
 
@@ -47,7 +55,7 @@ Khi vẽ spectrogram, người ta lấy `abs(Zxx)` để biểu diễn độ sá
 
 ---
 
-## Script giải
+## Script
 
 ```python
 import numpy as np
