@@ -150,7 +150,7 @@ Kết quả trông có vẻ ổn, nhưng hint đã cảnh báo:
 
 > *"don't fall for the oldest trick in the book"*
 
-**"Oldest trick" = Local Maximum** — điểm cao nhất trong vùng lân cận, nhưng không phải cao nhất toàn cục.
+**"Oldest trick" = Local Maximum** là điểm cao nhất trong vùng lân cận, nhưng không phải cao nhất toàn cục.
 
 Vấn đề nằm ở **charset quá hẹp**: chỉ dùng `a-z 0-9 _` → bỏ sót dấu `'` (apostrophe).
 
