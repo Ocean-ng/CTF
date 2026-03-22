@@ -255,14 +255,6 @@ print("\nFlag:", "".join(flag))
 
 ## Bài học
 
-Tên bài, nội dung flag, và hint đều nói cùng một thứ:
-
-```
-Tên bài:       gigem.onnx
-Nội dung flag: "just catch the local max and u'll be fine"
-Hint:          "don't fall for the oldest trick in the book"
-```
-
 "Oldest trick in the book" trong optimization chính là **local maximum** — bẫy mà greedy search luôn dễ rơi vào nếu không cẩn thận với charset.
 
 Cách tránh: **luôn dùng đủ printable ASCII** thay vì giới hạn charset tùy tiện.
