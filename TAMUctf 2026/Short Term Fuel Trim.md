@@ -2,7 +2,7 @@
 
 ## Nhận diện bài
 
-Tên bài **"Short Term Fuel Trim"** chơi chữ của **STFT** — *Short-Time Fourier Transform* (Biến đổi Fourier thời gian ngắn). Đây chính là hint duy nhất và cũng là toàn bộ lời giải của bài.
+Tên bài **"Short Term Fuel Trim"** chơi chữ của **STFT** - *Short-Time Fourier Transform* (Biến đổi Fourier thời gian ngắn). Đây chính là hint duy nhất và cũng là toàn bộ lời giải của bài.
 
 
 ## Nguyên lý STFT
