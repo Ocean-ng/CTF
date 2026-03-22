@@ -255,6 +255,6 @@ print("\nFlag:", "".join(flag))
 
 ## Bài học
 
-"Oldest trick in the book" trong optimization chính là **local maximum** — bẫy mà greedy search luôn dễ rơi vào nếu không cẩn thận với charset.
+"Oldest trick in the book" trong optimization chính là **local maximum**, bẫy mà greedy search luôn dễ rơi vào nếu không cẩn thận với charset.
 
 Cách tránh: **luôn dùng đủ printable ASCII** thay vì giới hạn charset tùy tiện.
