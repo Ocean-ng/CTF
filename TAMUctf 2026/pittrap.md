@@ -2,7 +2,7 @@
 
 ## Mô tả
 
-Bài cho một file `gigem.onnx`. Không có mô tả gì thêm ngoàihint:
+Bài cho một file `gigem.onnx`. Không có mô tả gì thêm ngoài hint:
 
 > *HINT: don't fall for the oldest trick in the book*
 
