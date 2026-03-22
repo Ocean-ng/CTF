@@ -83,7 +83,7 @@ input_ids (48 ký tự ASCII)
 
 ## Cách giải
 
-### Bước 1 — Xác nhận format flag
+### 1. Xác nhận format flag
 
 ```python
 import onnxruntime as ort
@@ -103,7 +103,7 @@ print(score("gigem{" + "a"*41 + "}"))  # -28.25 → thấp nhưng đúng format
 
 ---
 
-### Bước 2 — Greedy Search (multi-pass)
+### 2. Greedy Search (multi-pass)
 
 Vì Conv1D nhìn 3 ký tự một lúc, cần chạy **nhiều vòng** cho đến khi hội tụ:
 
@@ -144,7 +144,7 @@ print("".join(flag))
 
 ---
 
-### Bước 3 — Bị bẫy Local Maximum
+### 3. Bị bẫy Local Maximum
 
 Kết quả trông có vẻ ổn, nhưng hint đã cảnh báo:
 
@@ -163,7 +163,7 @@ Greedy thử:  a b c ... z  0 1 ... 9  _
 
 ---
 
-### Bước 4 — Thoát Local Max
+### 4. Thoát Local Max
 
 Thêm dấu `'` vào charset và chạy lại:
 
